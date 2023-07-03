@@ -11066,7 +11066,7 @@ fn bindgen_test_layout_ble_msg_dfu_boot_evt_t() {
     );
 }
 #[repr(C, packed(4))]
-#[repr(align(4))]
+//#[repr(align(4))]
 pub struct ble_cmd_packet {
     pub header: ble_header,
     pub __bindgen_anon_1: ble_cmd_packet__bindgen_ty_1,
